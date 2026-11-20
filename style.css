@@ -222,9 +222,8 @@ header .row {
 }
 
 p {
-    display: block;
-    align-items: center;
-    justify-content: space-around;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 img {
@@ -760,6 +759,10 @@ MOBILE RESPONSIVENESS ↓
         flex-direction: column;
         align-items: center;
     }
+    .header__customers--title, 
+    .header__img--wrapper {
+        margin-top: 48px;
+    }
   
     footer {
         padding: 80px 32px;
@@ -815,6 +818,10 @@ MOBILE RESPONSIVENESS ↓
         height: auto;
         align-items: stretch;
         gap: 12px;
+    }
+    .header__customers--title {
+        font-size: 14px;
+        letter-spacing: 0.05em;
     }
 
 .header__email--input{
