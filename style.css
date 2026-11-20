@@ -619,7 +619,7 @@ STEPS ↓
     margin-top: 32px;
 }
 
-}
+
 .step__number {
     color: #cbd5e0;
     font-size: 36px;
@@ -747,7 +747,7 @@ MOBILE RESPONSIVENESS ↓
         bottom: -50px;
     }
 }
-}
+
 
 @media (max-width: 1024px) {
     .nav__links {
